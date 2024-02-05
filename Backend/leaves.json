@@ -1,0 +1,42 @@
+[
+  {
+    "facultyId": "001",
+    "facultyName": "Sumit Mishra",
+    "leaveType": "HalfPay Leave",
+    "leaveStatus": "active",
+    "reason": "Medical Appointment",
+    "noOfDays": 2,
+    "fromDate": "2024-02-01",
+    "toDate": "2024-02-02"
+  },
+  {
+    "facultyId": "002",
+    "facultyName": "Kaustav Nag",
+    "leaveType": "Earned Leave",
+    "leaveStatus": "rejected",
+    "reason": "Vacation",
+    "noOfDays": 5,
+    "fromDate": "2024-03-15",
+    "toDate": "2024-03-19"
+  },
+  {
+    "facultyId": "003",
+    "facultyName": "Sanjay Moulik",
+    "leaveType": "Casual Leave",
+    "leaveStatus": "approved",
+    "reason": "Personal Reasons",
+    "noOfDays": 3,
+    "fromDate": "2024-04-10",
+    "toDate": "2024-04-12"
+  },
+  {
+    "facultyId": "004",
+    "facultyName": "Subhashish Dhal",
+    "leaveType": "HalfPay Leave",
+    "leaveStatus": "active",
+    "reason": "Family Issues",
+    "noOfDays": 5,
+    "fromDate": "2024-07-01",
+    "toDate": "2024-07-05"
+  }
+]

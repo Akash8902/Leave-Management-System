@@ -1,0 +1,152 @@
+[
+  {
+    "facultyId": "001",
+    "firstName": "Sumit",
+    "lastName": "Mishra",
+    "email": "sumit.mishra@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 5,
+    "availableEarnedLeaves": 10,
+    "availableCasualLeaves": 8
+  },
+  {
+    "facultyId": "002",
+    "firstName": "Kaustav",
+    "lastName": "Nag",
+    "email": "kaustav.nag@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 7,
+    "availableEarnedLeaves": 12,
+    "availableCasualLeaves": 6
+  },
+  {
+    "facultyId": "003",
+    "firstName": "Sanjay",
+    "lastName": "Moulik",
+    "email": "sanjay.moulik@gmail.com",
+    "department": "Mechanical",
+    "availableHalfPayLeaves": 3,
+    "availableEarnedLeaves": 8,
+    "availableCasualLeaves": 10
+  },
+  {
+    "facultyId": "004",
+    "firstName": "Subhashish",
+    "lastName": "Dhal",
+    "email": "subhashish.dhal@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 6,
+    "availableEarnedLeaves": 15,
+    "availableCasualLeaves": 7
+  },
+  {
+    "facultyId": "005",
+    "firstName": "Upasana",
+    "lastName": "Talukdar",
+    "email": "upasana.talukdar@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 8,
+    "availableEarnedLeaves": 14,
+    "availableCasualLeaves": 5
+  },
+  {
+    "facultyId": "006",
+    "firstName": "Momita",
+    "lastName": "Roy",
+    "email": "momita.roy@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 4,
+    "availableEarnedLeaves": 9,
+    "availableCasualLeaves": 12
+  },
+  {
+    "facultyId": "007",
+    "firstName": "Arjab",
+    "lastName": "Roy",
+    "email": "arjab.roy@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 6,
+    "availableEarnedLeaves": 11,
+    "availableCasualLeaves": 9
+  },
+  {
+    "facultyId": "008",
+    "firstName": "David",
+    "lastName": "Lal",
+    "email": "david.lal@gmail.com",
+    "department": "Mechanical",
+    "availableHalfPayLeaves": 7,
+    "availableEarnedLeaves": 13,
+    "availableCasualLeaves": 8
+  },
+  {
+    "facultyId": "009",
+    "firstName": "Suranjana",
+    "lastName": "Barua",
+    "email": "suranjana.barua@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 5,
+    "availableEarnedLeaves": 10,
+    "availableCasualLeaves": 11
+  },
+  {
+    "facultyId": "010",
+    "firstName": "Debashree",
+    "lastName": "Devi",
+    "email": "debashree.devi@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 7,
+    "availableEarnedLeaves": 12,
+    "availableCasualLeaves": 6
+  },
+  {
+    "facultyId": "011",
+    "firstName": "Rakesh",
+    "lastName": "Matam",
+    "email": "rakesh.matam@gmail.com",
+    "department": "Mechanical",
+    "availableHalfPayLeaves": 3,
+    "availableEarnedLeaves": 8,
+    "availableCasualLeaves": 10
+  },
+  {
+    "facultyId": "012",
+    "firstName": "Angshuman",
+    "lastName": "Jana",
+    "email": "angshuman.jana@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 6,
+    "availableEarnedLeaves": 15,
+    "availableCasualLeaves": 7
+  },
+  {
+    "facultyId": "013",
+    "firstName": "Rohit",
+    "lastName": "Tripathi",
+    "email": "rohit.tripathi@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 8,
+    "availableEarnedLeaves": 14,
+    "availableCasualLeaves": 5
+  },
+  {
+    "facultyId": "014",
+    "firstName": "Parashjyoti",
+    "lastName": "Borah",
+    "email": "parashjyoti.borah@gmail.com",
+    "department": "CSE",
+    "availableHalfPayLeaves": 4,
+    "availableEarnedLeaves": 9,
+    "availableCasualLeaves": 12
+  },
+  {
+    "facultyId": "015",
+    "firstName": "Arijit",
+    "lastName": "Jana",
+    "email": "arijit.jana@gmail.com",
+    "department": "ECE",
+    "availableHalfPayLeaves": 6,
+    "availableEarnedLeaves": 11,
+    "availableCasualLeaves": 9
+  }
+]
