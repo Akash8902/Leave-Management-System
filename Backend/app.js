@@ -10,7 +10,7 @@ const leaveRoutes = require("./Routes/leaveRoutes");
 var app = express();
 
 const dbURI =
-  "mongodb+srv://akavbnsh:akash12tyui3@cluster0.mwdnrs5.mongodb.net/flmsystem?retryWrites=true&w=majority";
+  "mongodb+srv://dfghj:ghjk@cluster0.mwdnrs5.mongodb.net/flmsystem?retryWrites=true&w=majority";
 
 mongoose
   .connect(dbURI)
