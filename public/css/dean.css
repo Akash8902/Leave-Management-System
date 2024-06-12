@@ -1,0 +1,77 @@
+/* dean.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  /* background-color: #3498db; */
+  color: #fff;
+  padding: 2px;
+  text-align: right;
+  font-weight:bolder;
+  font-size:x-large;
+  color:black;
+}
+
+/* .user-icon {
+  margin-right: 10px;
+} */
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(79, 107, 135);
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Verdana", sans-serif; /* Change to your desired font-family */
+  font-size: 28px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.leave-details {
+  border: 1px solid #ccc;
+  background-color: rgb(126, 161, 186);
+  padding: 10px;
+  margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.leave-details strong {
+  color: navy;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.recommend {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button.reject {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}

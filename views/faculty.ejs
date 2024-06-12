@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/faculty.css" />
+  <title>Faculty Home Page</title>
+</head>
+<body>
+  <nav class="navbar">
+    <span class="navbar-brand"><%= facultyInfo.firstName %> <%= facultyInfo.lastName %> - Faculty</span>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Welcome, <%= facultyInfo.firstName %> <%= facultyInfo.lastName %>!</h1>
+
+    <h2>Your Information</h2>
+    <p><strong>Email:</strong> <%= facultyInfo.email %></p>
+    <p><strong>Department:</strong> <%= facultyInfo.department %></p>
+
+    <h2>Your Available Leaves</h2>
+    <p><strong>HalfPay Leaves:</strong> <%= facultyInfo.availableHalfPayLeaves %></p>
+    <p><strong>Earned Leaves:</strong> <%= facultyInfo.availableEarnedLeaves %></p>
+    <p><strong>Casual Leaves:</strong> <%= facultyInfo.availableCasualLeaves %></p>
+    <p><strong>Special Casual Leaves:</strong> <%= facultyInfo.availableSpecialCasualLeaves %></p>
+    <p><strong>Paternity Leaves:</strong> <%= facultyInfo.availablePaternityLeaves %></p>
+    <p><strong>Maternity Leaves:</strong> <%= facultyInfo.availableMaternityLeaves %></p>
+
+    <h2>Actions</h2>
+    <ul>
+      <li><a href="/leaves/applyLeave" class="styled-link">Apply for New Leave</a></li>
+      <br />
+      <li><a href="/leaves/leaveHistory/<%= facultyInfo.facultyId %>" class="styled-link">View Leave History</a></li>
+      <br />
+      <!-- Link to Leave Rules PDF -->
+      <li><a href="https://www.iiitg.ac.in/uploads/uploads/Statutes_v2.pdf" class="styled-link" target="_blank">View Leave Rules</a></li>
+    </ul>
+  </div>
+</body>
+</html>

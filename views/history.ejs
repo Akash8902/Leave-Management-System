@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/history.css" />
+    <title>Leave History</title>
+    <!-- Add your stylesheets and other head elements here -->
+  </head>
+
+  <body>
+    <h1>Leave History</h1>
+
+    <% if (result.length === 0) { %>
+    <p>No leave history available.</p>
+    <% } else { %>
+    <table class="leave-table">
+      <thead>
+        <tr>
+          <th>Serial No.</th>
+          <th>Leave Type</th>
+          <th>Leave Status</th>
+          <th>Reason</th>
+          <th>From Date</th>
+          <th>To Date</th>
+          <th>No. of Days</th>
+          <th>Remarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% result.forEach((leave, index) => { %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><%= leave.leaveType %></td>
+          <td><%= leave.leaveStatus %></td>
+          <td><%= leave.reason %></td>
+          <td><%= leave.fromDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'numeric', year: 'numeric' }) %></td>
+          <td><%= leave.toDate.toLocaleDateString('en-IN', { day: 'numeric', month: 'numeric', year: 'numeric' }) %></td>
+          <td><%= leave.noOfDays %></td>
+          <td><%= leave.remarks || 'N/A' %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <% } %>
+
+    <!-- Add your scripts and other body elements here -->
+  </body>
+</html>

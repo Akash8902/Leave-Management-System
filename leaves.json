@@ -1,0 +1,70 @@
+[
+  {
+    "facultyId": 1,
+    "facultyName": "Sumit Mishra",
+    "leaveType": "HalfPay Leave",
+    "leaveStatus": "active",
+    "reason": "Medical Appointment",
+    "noOfDays": 2,
+    "fromDate": "2024-02-01",
+    "toDate": "2024-02-02",
+    "remarks": ""
+  },
+  {
+    "facultyId": 2,
+    "facultyName": "Kaustav Nag",
+    "leaveType": "Earned Leave",
+    "leaveStatus": "rejected",
+    "reason": "Vacation",
+    "noOfDays": 5,
+    "fromDate": "2024-03-15",
+    "toDate": "2024-03-19",
+    "remarks": ""
+  },
+  {
+    "facultyId": 3,
+    "facultyName": "Sanjay Moulik",
+    "leaveType": "Casual Leave",
+    "leaveStatus": "approved",
+    "reason": "Personal Reasons",
+    "noOfDays": 3,
+    "fromDate": "2024-04-10",
+    "toDate": "2024-04-12",
+    "remarks": ""
+  },
+  {
+    "facultyId": 4,
+    "facultyName": "Subhashish Dhal",
+    "leaveType": "HalfPay Leave",
+    "leaveStatus": "active",
+    "reason": "Family Issues",
+    "noOfDays": 5,
+    "fromDate": "2024-07-01",
+    "toDate": "2024-07-05",
+    "remarks": ""
+  },
+  {
+    "facultyId": 3,
+    "facultyName": "Sanjay Moulik",
+    "leaveType": "Casual Leave",
+    "leaveStatus": "approved",
+    "reason": "Personal Reasons",
+    "noOfDays": 3,
+    "fromDate": "2024-04-10",
+    "toDate": "2024-04-12",
+    "approvedAt": "2024-02-12T09:09:51.395+00:00",
+    "updatedAt": "2024-02-12T09:09:51.396+00:00",
+    "remarks": "I have taken extra classes to cover up my leave days."
+  },
+  {
+    "facultyId": 2,
+    "facultyName": "Kaustav Nag",
+    "leaveType": "Casual Leave",
+    "leaveStatus": "hod_recommended",
+    "reason": "Kind of lazy to come",
+    "noOfDays": 3,
+    "fromDate": "2024-01-28T00:00:00.000+00:00",
+    "toDate": "2024-01-30T00:00:00.000+00:00",
+    "remarks": "Leave requested. Kind of lazy to come."
+  }
+]

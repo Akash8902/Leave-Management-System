@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/facultyLogin.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1 class="heading">Faculty Leave Management System</h1>
+    <div id="algn">
+      <div id="container">
+        <p class="head">Dean Login</p>
+        <form action="/leaves/deanLogin" method="POST" class="input-container">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="inpt"
+            placeholder="Enter username"
+            required
+          />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="inpt"
+            placeholder="Enter password"
+            required
+          />
+
+            <!-- <input type="email" placeholder="Enter email" class="inpt" required>
+            <input type="password" placeholder="Enter password" class="inpt" required> -->
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

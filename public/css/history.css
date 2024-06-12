@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+      background-image: url("/images/bg7.jpeg");
+      background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.leave-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.leave-table th,
+.leave-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.leave-table th {
+  background-color: rgb(58, 134, 184);
+  color: #ffffff;
+}
+
+.leave-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leave-table tbody tr:hover {
+  background-color: #e6f7ff;
+}

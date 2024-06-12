@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("/images/bg5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #6d748b;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  /* background-color: #333; */
+  color: #fff;
+  text-align: center;
+  padding: 13px;
+  padding-top: 15px;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+
+/* .navbar span {
+  font-weight:bolder;
+  font-size:x-large;
+} */
+
+.leave-details {
+  margin-bottom: 20px;
+}
+
+.leave-details strong {
+  font-size: 18px;
+  color: navy;
+}
+
+.leave-details p {
+  margin: 5px 0;
+  color: black;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.approve {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button.reject {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}

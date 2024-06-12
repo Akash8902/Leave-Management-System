@@ -1,0 +1,88 @@
+/* hod.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+    background-image: url("/images/bg3.jpeg");
+      background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: rgb(94, 119, 152);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.leave-details {
+  background-color: rgb(121, 154, 183);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.leave-details strong {
+  color: navy;
+}
+
+.leave-details p {
+  margin: 8px 0;
+}
+
+.leave-details button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button.recommend {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button.reject {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #3498db; */
+  font-weight:bolder;
+  font-size:x-large;
+  color:#fff;
+}
+
+.user-icon {
+  margin-right: 8px;
+  font-size: 1.5em;
+}

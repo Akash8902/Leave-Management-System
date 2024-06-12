@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/addLeave.css" />
+    <title>Apply Leave</title>
+  </head>
+  <body>
+    <h1>Leave Application</h1>
+
+    <form
+      id="leaveForm"
+      action="/leaves/add_leave"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <label for="facultyId">Faculty ID:</label>
+      <input type="number" id="facultyId" name="facultyId" required />
+
+      <label for="facultyName">Faculty Name:</label>
+      <input type="text" id="facultyName" name="facultyName" required />
+
+      <label for="leaveType">Leave Type:</label>
+      <select id="leaveType" name="leaveType" required>
+        <option value="HalfPay Leave">Half Pay Leave</option>
+        <option value="Earned Leave">Earned Leave</option>
+        <option value="Casual Leave">Casual Leave</option>
+        <option value="Special Casual Leave">Special Casual Leave</option>
+        <option value="Special Earned Leave">Special Earned Leave</option>
+        <option value="Paternity Leave">Paternity Leave</option>
+        <option value="Maternity Leave">Maternity Leave</option>
+      </select>
+
+      <label for="reason">Reason:</label>
+      <textarea id="reason" name="reason" rows="4" required></textarea>
+
+      <label for="noOfDays">Number of Days:</label>
+      <input type="number" id="noOfDays" name="noOfDays" required />
+
+      <label for="fromDate">From Date:</label>
+      <input type="date" id="fromDate" name="fromDate" required />
+
+      <label for="toDate">To Date:</label>
+      <input type="date" id="toDate" name="toDate" required />
+
+      <!-- Prefix Section -->
+      <h3>Prefix:</h3>
+      <label for="prefix_fromDate">From Date:</label>
+      <input type="date" id="prefix_fromDate" name="prefix_fromDate" />
+
+      <label for="prefix_toDate">To Date:</label>
+      <input type="date" id="prefix_toDate" name="prefix_toDate" />
+
+      <label for="prefix_noOfDays">Number of Days:</label>
+      <input type="number" id="prefix_noOfDays" name="prefix_noOfDays" />
+
+      <!-- Suffix Section -->
+      <h3>Suffix:</h3>
+      <label for="suffix_fromDate">From Date:</label>
+      <input type="date" id="suffix_fromDate" name="suffix_fromDate" />
+
+      <label for="suffix_toDate">To Date:</label>
+      <input type="date" id="suffix_toDate" name="suffix_toDate" />
+
+      <label for="suffix_noOfDays">Number of Days:</label>
+      <input type="number" id="suffix_noOfDays" name="suffix_noOfDays" />
+
+      <label for="remarks">Remarks:</label>
+      <textarea id="remarks" name="remarks" rows="4"></textarea>
+
+      <label for="documentProof"
+        >Document Proof (for special casual leaves):</label
+      >
+      <input
+        type="file"
+        id="documentProof"
+        name="documentProof"
+        accept=".pdf,.jpg,.png"
+      />
+
+      <button type="submit">Apply</button>
+    </form>
+
+  </body>
+</html>

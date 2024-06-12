@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/hod.css" />
+    <title>Hod Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <!-- <span class="user-icon">👤</span> -->
+        <span>HOD</span>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>Active Leaves</h1>
+
+        <% if (activeLeaves.length === 0) { %>
+        <p>No active leaves available.</p>
+        <% } else { %> <% activeLeaves.forEach(leave => { %>
+        <!-- Leave Details -->
+        <div class="leave-details">
+            <strong><%= leave.facultyName %> - <%= leave.leaveType %></strong>
+            <p><strong>Reason:</strong> <%= leave.reason %></p>
+            <p><strong>No. of Days:</strong> <%= leave.noOfDays %></p>
+            <p>
+                <strong>From Date:</strong> <%= leave.fromDate.toLocaleDateString('en-IN', { day: 'numeric', month:
+                'numeric', year: 'numeric' }) %>
+            </p>
+            <p>
+                <strong>To Date:</strong> <%= leave.toDate.toLocaleDateString('en-IN',
+                { day: 'numeric', month: 'numeric', year: 'numeric' }) %>
+            </p>
+            
+            <!-- Display Document Proof -->
+            <% if (leave.leaveType === 'Special Casual Leave' && leave.documentProof) { %>
+            <p><strong>Document Proof:</strong> <a href="/<%= leave.documentProof %>" target="_blank">View Document</a></p>
+            <% } %>
+           
+            <p><strong>Status:</strong> <%= leave.leaveStatus %></p>
+            <p><strong>Remarks:</strong> <%= leave.remarks %></p>
+
+             <!-- Display Prefix -->
+            <% if (leave.prefix_fromDate) { %>
+            <div class="prefix-details">
+                <h4>Prefix:</h4>
+                <p><strong>From Date:</strong> <%= leave.prefix_fromDate.toLocaleDateString('en-IN', { day: 'numeric', month:
+                'numeric', year: 'numeric' }) %></p>
+                <p><strong>To Date:</strong> <%= leave.prefix_toDate.toLocaleDateString('en-IN', { day: 'numeric', month:
+                'numeric', year: 'numeric' }) %></p>
+                <p><strong>No. of Days:</strong> <%= leave.prefix_noOfDays %></p>
+            </div>
+            <% } %>
+
+            <!-- Display Suffix -->
+            <% if (leave.suffix_fromDate) { %>
+            <div class="suffix-details">
+                <h3>Suffix:</h3>
+                <p><strong>From Date:</strong> <%= leave.suffix_fromDate.toLocaleDateString('en-IN', { day: 'numeric', month:
+                'numeric', year: 'numeric' }) %></p>
+                <p><strong>To Date:</strong> <%= leave.suffix_toDate.toLocaleDateString('en-IN', { day: 'numeric', month:
+                'numeric', year: 'numeric' }) %></p>
+                <p><strong>No. of Days:</strong> <%= leave.suffix_noOfDays %></p>
+            </div>
+            <% } %>
+
+
+            <!-- Buttons for Recommendation and Rejection -->
+            <form action="/leaves/hod_recommend/<%= leave._id %>" method="POST">
+                <input type="hidden" name="leaveId" value="<%= leave._id %>" />
+                <button type="submit" class="recommend">Recommend</button>
+            </form>
+
+            <form action="/leaves/hod_reject/<%= leave._id %>" method="POST">
+                <input type="hidden" name="leaveId" value="<%= leave._id %>" />
+                <button type="submit" class="reject">Reject</button>
+            </form>
+        </div>
+        <hr />
+        <% }); %> <% } %>
+    </div>
+</body>
+</html>

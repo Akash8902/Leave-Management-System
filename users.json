@@ -1,0 +1,92 @@
+[
+  {
+    "username": "sumit",
+    "password": "sumit123",
+    "facultyId": 1,
+    "email": "sumit.mishra@gmail.com"
+  },
+  {
+    "username": "kaustav",
+    "password": "kaustav123",
+    "facultyId": 2,
+    "email": "kaustav.nag@gmail.com"
+  },
+  {
+    "username": "sanjay",
+    "password": "sanjay123",
+    "facultyId": 3,
+    "email": "sanjay.moulik@gmail.com"
+  },
+  {
+    "username": "subhashish",
+    "password": "subhashish123",
+    "facultyId": 4,
+    "email": "subhashish.dhal@gmail.com"
+  },
+  {
+    "username": "upasana",
+    "password": "upasana123",
+    "facultyId": 5,
+    "email": "upasana.talukdar@gmail.com"
+  },
+  {
+    "username": "momita",
+    "password": "momita123",
+    "facultyId": 6,
+    "email": "momita.roy@gmail.com"
+  },
+  {
+    "username": "arjab",
+    "password": "arjab123",
+    "facultyId": 7,
+    "email": "arjab.roy@gmail.com"
+  },
+  {
+    "username": "david",
+    "password": "david123",
+    "facultyId": 8,
+    "email": "david.lal@gmail.com"
+  },
+  {
+    "username": "suranjana",
+    "password": "suranjana123",
+    "facultyId": 9,
+    "email": "suranjana.barua@gmail.com"
+  },
+  {
+    "username": "debashree",
+    "password": "debashree123",
+    "facultyId": 10,
+    "email": "debashree.devi@gmail.com"
+  },
+  {
+    "username": "rakesh",
+    "password": "rakesh123",
+    "facultyId": 11,
+    "email": "rakesh.matam@gmail.com"
+  },
+  {
+    "username": "angshuman",
+    "password": "angshuman123",
+    "facultyId": 12,
+    "email": "angshuman.jana@gmail.com"
+  },
+  {
+    "username": "rohit",
+    "password": "rohit123",
+    "facultyId": 13,
+    "email": "rohit.tripathi@gmail.com"
+  },
+  {
+    "username": "parashjyoti",
+    "password": "parashjyoti123",
+    "facultyId": 14,
+    "email": "parashjyoti.borah@gmail.com"
+  },
+  {
+    "username": "arijit",
+    "password": "arijit123",
+    "facultyId": 15,
+    "email": "arijit.jana@gmail.com"
+  }
+]
